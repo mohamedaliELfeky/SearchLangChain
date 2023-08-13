@@ -13,7 +13,7 @@ models_id = ['sentence-transformers/paraphrase-MiniLM-L6-v2',
              ]
 
 MODEL_ID = models_id[0]
-hf_token = "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"
+hf_token = "hf"
 
 
 api_url = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{MODEL_ID}"
