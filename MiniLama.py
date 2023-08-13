@@ -46,7 +46,7 @@ def get_LaMini():
     #         )
 
     return HuggingFaceHub(repo_id=MODEL_ID,
-                          #huggingfacehub_api_token="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",
+                          #huggingfacehub_api_token="hf",
                           task=model_parm[MODEL_ID], # 'text2text-generation'
                         #   max_new_tokens = 250,
                         #   top_k = 10,
